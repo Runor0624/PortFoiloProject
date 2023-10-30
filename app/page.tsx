@@ -2,6 +2,7 @@ import ProjectForm from "@/components/UI/ProjectForm"
 import SkillForm from "@/components/UI/SkillForm"
 import UI from "@/components/UI/UI"
 
+import { datas } from "@/data/data"
 import { SkillData } from "@/data/SkillData"
 import Image from "next/image"
 
@@ -12,8 +13,15 @@ export default function Home() {
     <main className="flex flex-col justify-center w-full h-screen">
       
       <UI>
-        <h4 className="p-4 font-bold text-xl">간단한 소개 부분 배치</h4>
-
+        <h4 className="p-4 font-bold text-xl">Introduce</h4>
+        <section className="grid grid-cols-2 justify-items-center">
+          <section>
+            <p>내용</p>
+          </section>
+          <section>
+            <p>사진</p>
+          </section>
+        </section>
       </UI>
 
       <UI id="skill">
@@ -51,23 +59,19 @@ export default function Home() {
 
       <UI>
         <h4 className="pl-4 font-bold text-xl">Career</h4>
-        <section className="grid grid-cols-2">  
+        <section className="grid grid-cols-2 justify-items-center">  
           <section>
-            <p>1</p>
+            <p>회사 명</p>
           </section>
 
           <section>
-            <p>1-1</p>
-          </section>
-
-          <section>
-            <p>2</p>
-          </section>
-
-          <section>
-            <p>2-1</p>
+            <p>어떤일을 했는지?</p>
           </section>
         </section>
+      </UI>
+
+      <UI id="contact">
+          <h4>여기는 연락처가 들어갑니다.</h4>
       </UI>
     </main>
   )
