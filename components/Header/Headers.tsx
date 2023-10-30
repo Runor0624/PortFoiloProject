@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Headers () {
 	return (
 		<>
-			<header className="w-full h-14 border-b-2 border-black flex flex-row justify-between mb-2 dark:border-slate-300">
+			<header className="w-full h-12 border-b-2 border-black flex flex-row justify-between mb-2 dark:border-slate-300">
 				<Link href="/">
 					<h1 className="m-2 font-bold text-2xl dark:text-white">PortFoilo</h1>
 				</Link>

@@ -3,7 +3,7 @@ import { UIComponentsType } from '../../types/types'
 
 export default function ProjectForm({children}:UIComponentsType) {
     return (
-        <section className="border border-black rounded-sm w-1/3 lg:w-1/6 m-6">
+        <section className="border border-black rounded-sm w-1/3 lg:w-1/6">
             {children}
         </section>
     )
