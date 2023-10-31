@@ -4,8 +4,6 @@ import './globals.css'
 import Footers from '@/components/Footer/Footers'
 import Headers from '@/components/Header/Headers'
 import Top from '@/components/Button/Top'
-import DarkModeProvider from '@/components/ETC/DarkModeProvider'
-import DarkModeButton from '@/components/Button/DarkMode'
 
 export const metadata: Metadata = {
   title: '한상일 - 포트폴리오',
@@ -22,14 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-#cfcfcf dark:bg-black">
-        <DarkModeProvider>
+      <body>
         <Headers />
         {children}
         <Top />
-        <DarkModeButton />
         <Footers />
-        </DarkModeProvider>
       </body>
     </html>
   )
