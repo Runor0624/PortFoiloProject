@@ -14,14 +14,18 @@ export default function Home() {
       
       <UI>
         <h4 className="p-4 font-bold text-xl">Introduce</h4>
-        <section className="grid grid-cols-2 justify-items-center">
+        {datas.map((item) => (
+        <section className="grid grid-cols-2 justify-items-center" key={item.id}>
           <section>
-            <p>내용</p>
+            <p>{item.description1}</p>
+            <p>{item.description2}</p>
+            <p>{item.description3}</p>
           </section>
           <section>
-            <p>사진</p>
+            <Image src={item.image} width={220} height={150} alt="이력서 이미지" className="mr-4 lg:mr-14" />
           </section>
         </section>
+        ))}
       </UI>
 
       <UI id="skill">
