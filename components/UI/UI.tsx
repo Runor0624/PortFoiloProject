@@ -3,7 +3,7 @@ import { UIComponentsType } from '../../types/types'
 
 export default function UI ({children, id, className}:UIComponentsType) {
     return (
-        <article className='w-full md:h-1/3 h-screen' id={id}>
+        <article className='w-full my-4 md:h-2/3 h-screen' id={id}>
             {children}
         </article>
     )

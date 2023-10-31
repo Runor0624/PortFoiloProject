@@ -9,10 +9,11 @@ export default function Headers () {
 				<Link href="/">
 					<h1 className="m-2 font-bold text-2xl dark:text-white">PortFoilo</h1>
 				</Link>
-				<section className="grid grid-cols-4 gap-2">
+				<section className="grid grid-cols-4 gap-2 mr-2">
 					<p className="text-center text-base font-bold text-black dark:text-white"><a href="#skill">Skill</a></p>
 					<p className="text-center text-base font-bold text-black dark:text-white"><a href="#career">Career</a></p>
 					<p className="text-center text-base font-bold text-black dark:text-white"><a href='#project'>Project</a></p>
+					<p className="text-center text-base font-bold text-black dark:text-white"><a href="#contact">Contact</a></p>
 				</section>
 			</header>
 		</>

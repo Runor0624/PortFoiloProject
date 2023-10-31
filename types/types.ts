@@ -5,3 +5,9 @@ export interface UIComponentsType {
     className?: string;
     children?: React.ReactNode
 }
+
+export interface ButtonComponentsType {
+    children?: React.ReactNode;
+    className?: string;
+    onClick?: () => void
+}

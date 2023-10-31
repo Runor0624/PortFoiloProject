@@ -6,13 +6,13 @@ import { faGlobe , faCalendarDay, faEnvelope, faCompass } from "@fortawesome/fre
 
 export default function Contact () {
     return (
-        <section className="my-4 lg:my-12">
+        <section className="w-full my-4 lg:my-12">
         <h1 className="text-center text-4xl font-bold py-4">연락처</h1>
 
         <section className="grid grid-cols-4 justify-items-center my-4 lg:my-8">
             <div className="flex flex-col items-center">
                 <FontAwesomeIcon icon={faCalendarDay} className="text-3xl font-bold" />
-                <p className="text-center text-xl font-bold py-4">1994.06.21</p>
+                <p className="text-center text-xl font-bold py-4">94.06.21</p>
             </div>
 
             <div className="flex flex-col items-center">
