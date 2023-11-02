@@ -8,7 +8,7 @@ import UI from "@/components/UI/UI"
 export default function Home() {
 
   return (
-    <main className="flex flex-col justify-center w-full">
+    <main className="flex flex-col justify-center items-center w-full">
       
       <UI id="main"> {/* 이 부분 수정해야함. */}
           <Introduce />
