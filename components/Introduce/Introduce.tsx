@@ -14,10 +14,7 @@ export default function Introduce() {
             <h4 className="text-3xl font-bold py-2">{item.description1}</h4>
             <p>{item.description2}</p>
             <p>{item.description3}</p>
-            <section className="flex flex-row my-2">
                 <Buttons><FontAwesomeIcon icon={faDownload} /> 이력서 다운로드</Buttons>
-                <Buttons><FontAwesomeIcon icon={faSearch} />프로젝트 확인하기</Buttons>
-            </section>
           </section>
 
           <section>

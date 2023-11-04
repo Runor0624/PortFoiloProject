@@ -12,7 +12,7 @@ export default function Skill () {
     
         <section className="grid grid-cols-3 justify-items-center w-full lg: -ml-14">
 
-            <div className="w-max border border-slate-300 m-4">
+            <div className="w-max m-4">
             <h4 className="text-center text-2xl font-bold py-4">FrontEnd</h4>
             {SkillDataFE.map((itemFE) => (
                 <section key={itemFE.id} className="flex flex-col items-center m-4">
@@ -25,7 +25,7 @@ export default function Skill () {
             ))}
             </div>
 
-            <div className="w-max border-slate-300 border m-4">
+            <div className="w-max m-4">
             <h4 className="text-center text-2xl font-bold py-4">BackEnd</h4>
             {SkillDataBE.map((itemBE) => (
                 <section key={itemBE.id} className="flex flex-col items-center m-4">
@@ -38,7 +38,7 @@ export default function Skill () {
             ))}
             </div>
 
-            <div className="w-max border border-slate-300 m-4">
+            <div className="w-max m-4">
             <h4 className="text-center text-2xl font-bold py-4">ETC</h4>
             {SkillDataETC.map((itemETC) => (
                 <section key={itemETC.id} className="flex flex-col items-center m-4">

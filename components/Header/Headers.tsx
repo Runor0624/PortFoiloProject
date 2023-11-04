@@ -13,7 +13,6 @@ export default function Headers () {
 					<p className="text-center text-base font-bold text-black dark:text-white"><a href="#skill">Skill</a></p>
 					<p className="text-center text-base font-bold text-black dark:text-white"><a href="#career">Career</a></p>
 					<p className="text-center text-base font-bold text-black dark:text-white"><a href='#project'>Project</a></p>
-					<p className="text-center text-base font-bold text-black dark:text-white"><a href="#contact">Contact</a></p>
 				</section>
 			</header>
 		</>
