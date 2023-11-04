@@ -10,7 +10,7 @@ export default function Skill () {
         <section>
         <h1 className="text-center text-4xl font-bold py-4">Skill</h1>
     
-        <section className="grid grid-cols-3 justify-items-center w-full lg: -ml-14">
+        <section className="grid lg:grid-cols-3 grid-cols-1 justify-items-center w-full m-auto">
 
             <div className="w-max m-4">
             <h4 className="text-center text-2xl font-bold py-4">FrontEnd</h4>

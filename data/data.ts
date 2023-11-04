@@ -8,3 +8,4 @@ export const datas = [
 		description3: "문구 3"
 	}
 ]
+// Introduce.tsx 에 들어가는 부분
