@@ -5,23 +5,23 @@ import Link from "next/link";
 
 export default function Footers () {
 	return (
-			<footer className="w-full h-10 border-black border-t-2 my-2 dark:border-slate-300">
+			<footer className="w-full h-10 my-4">
 				<section className="flex flex-row justify-center">
 						<div className="items-center px-10 py-2">
-                			<FontAwesomeIcon icon={faEnvelope} className="text-3xl font-bold px-2" />
+                			<FontAwesomeIcon icon={faEnvelope} className="text-xl font-bold px-2" />
                 			<p className="text-center text-xl font-bold py-4">Mail</p>
             			</div>
 
             			<div className="items-center px-10 py-2">
 						<Link href="https://velog.io/@hansqc" target="_blank">
-                			<FontAwesomeIcon icon={faGlobe} className="text-3xl font-bold px-2" />
+                			<FontAwesomeIcon icon={faGlobe} className="text-xl font-bold px-2" />
                 			<p className="text-center text-xl font-bold py-4">Blog</p>
 						</Link>
             			</div>
 
             			<div className="items-center px-10 py-2">
 						<Link href="https://github.com/Runor0624" target="_blank">
-                			<FontAwesomeIcon icon={faCompass} className="text-3xl font-bold px-2" />
+                			<FontAwesomeIcon icon={faCompass} className="text-xl font-bold px-2" />
                 			<p className="text-center text-xl font-bold py-4">GitHub</p>
 						</Link>
             			</div>

@@ -14,16 +14,17 @@ export default function Introduce() {
     return (
         <section>
           {datas.map((item) => (
-        <section className="grid grid-cols-2 justify-items-center" key={item.id}>
-          <section className="lg: pl-2">
+        <section className="flex flex-row justify-center w-max m-auto my-4" key={item.id}>
+          <section>
             <h4 className="text-xl lg:text-3xl font-bold py-2">{item.description1}</h4>
-            <p className="text-base lg:text-2xl font-bold py-2">{item.description2}</p>
-            <p className="text-base lg:text-2xl font-bold py-2">{item.description3}</p>
+            <p className="text-sm lg:text-base font-500 py-2">{item.description2}</p>
+            <p className="text-sm lg:text-base font-500 py-2">{item.description3}</p>
+            <p className="text-sm lg:text-base font-500 py-2">{item.description4}</p>
                 <Buttons onClick={ClickResume}><FontAwesomeIcon icon={faDownload} /> 이력서 다운로드</Buttons>
           </section>
 
           <section>
-            <Image src={item.image} width={220} height={150} alt="이력서 이미지" className="mr-2 lg:mr-4" />
+            <Image src={item.image} width={220} height={150} alt="이력서 이미지" className="mx-2 lg:mx-6" />
           </section>
         </section>
         ))}
