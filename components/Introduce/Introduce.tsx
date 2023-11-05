@@ -14,7 +14,7 @@ export default function Introduce() {
     return (
         <section>
           {datas.map((item) => (
-        <section className="flex flex-row justify-center w-max m-auto my-4" key={item.id}>
+        <section className="flex flex-row justify-center m-auto my-4 w-2/3 lg:w-max" key={item.id}>
           <section>
             <h4 className="text-xl lg:text-3xl font-bold py-2">{item.description1}</h4>
             <p className="text-sm lg:text-base font-500 py-2">{item.description2}</p>
